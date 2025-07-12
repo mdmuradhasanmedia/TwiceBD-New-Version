@@ -1,0 +1,2 @@
+<div class="breadcumbs_single">
+<div id="crumbs"><a href="/">Home</a> › <span class="current"><?php the_title(); ?></span></div></div><div class="block_single"><h1><?php the_title(); ?></h1><div class="post_paragraph"><?php the_content(); ?> </div></div>

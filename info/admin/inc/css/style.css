@@ -1,0 +1,226 @@
+.nav-tab-wrapper.wpc span.count,
+span.menu_count {
+    background-color: #D54E21;
+    position: static;
+    border: 0;
+    font-size: 85%;
+    padding: 1px 5px;
+    margin: 0;
+    color: #fff;
+    border-radius: 100%;
+}
+.wrap.wpc th {
+    font-weight: 600;
+}
+span.wpc_help {
+	padding: 4px 1em;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+span.wpc_help:after {
+	content: '?';
+	margin-left: 5px;
+	background-color: #fff;
+	padding: 0px 4px;
+	border-radius: 100%;
+	border: 1px solid #ddd;
+	font-family: monospace;
+}
+span.wpc_help.active {
+	background-color: #fff;
+}
+tr.wpc_help td:nth-child(2),
+tr.wpc_help td.wpc_help {
+	background-color: #f1f1f1;
+	display: inline-block;
+	padding: .6em 1em;
+	border: 1px solid #ddd;
+}
+tr.wpc_help td:nth-child(2):before,
+tr.wpc_help td.wpc_help:before {
+	content: "";
+	display: block;
+	border: 0.7em solid transparent;
+	border-bottom-color: #DFDFDF;
+	float: left;
+	margin-top: -26px;
+}
+.wpc_admin_top_menu i {
+	position: relative;
+	top: -1px;
+	right: 1px;
+	color: #666;
+}
+.wpc_admin_top_menu a[href*="section=emoji"] i {
+	top: -2px;
+}
+a[href^="admin.php?page=wpchats"] .wp-menu-image:before {
+	content: '\f307';
+}
+#users-cont div,
+#users-cont .more {
+	background: #fff;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	padding: 8px 1em;
+	margin: 1px;
+	display:inline-block;
+	text-align: center;
+}
+#users-cont span {
+	display: block;
+}
+#users-cont div:hover,
+#users-cont div:active {
+	background-color: #F3F3F3;
+}
+#users-cont a {
+	color: #444;
+}
+#users-cont .avatar {
+	border-radius: 100%;
+	border: 1px solid #ddd;
+}
+#wpc-stats {
+	border: 1px solid #ddd;
+	max-width: 400px;
+}
+#wpc-stats td,
+#wpc-stats th {
+	border: 1px solid #ddd;
+}
+#mailing div {
+	background-color: #F9F9F9;
+	padding: 5px 1em;
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+}
+#mailing code {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	padding: 1px 2px 2px 3px;
+	color: #6B6767;
+}
+.wrap h3 > a {
+	text-decoration: none;
+}
+.wrap .scd tr > td:nth-child(1) {
+	min-width: 450px;
+}
+
+#wpc-ft {
+	border-top: 1px solid #ddd;margin-top: 2em;padding-top: 1em;}
+#wpc-ft a {
+    margin-bottom: 6px;
+}
+#wpc-ft span:before {
+    vertical-align: middle;
+}
+.nav-tab-wrapper.wpc a {
+	border-color: #ddd;
+	border-bottom: 0;
+	margin: 4px 0 0 0;
+	font-size: 13px;
+	position: relative;
+	top: 1px;
+}
+.nav-tab-wrapper.wpc {
+	border-color: #ddd;
+	margin-bottom: 10px;
+}
+.nav-tab-wrapper.wpc .dashicons {
+	vertical-align: middle;
+	margin-bottom: 3px;
+	margin-right: 2px;
+}
+table.wpc-table span.label {
+	font-size: 110%;
+}
+table.wpc-table span.help {
+	display: block;
+	font-style: italic;
+	margin-top: 7px;
+	color: #888;
+}
+table.wpc-table span.help:before {
+	content: 'Help: ';
+	font-weight: bold;
+}
+table.wpc-table td,
+table.wpc-table th {
+	border: 1px solid #ececec;
+	overflow: hidden;
+}
+p#status span {
+	display: block;
+	border: 1px solid #ddd;
+	padding: 1em;
+	background: #FFF;
+}
+p#status span.success { background: #F7FDF2; }
+p#status span.error { background: #F9D6CB; }
+table#contribute-wpc {
+	display: table;
+    border: 1px solid #ddd;
+    padding: 14px 7px;
+    background: #F7F7F7;
+}
+table#contribute-wpc label span {
+	font-style: italic;
+	display: block;
+}
+table#contribute-wpc label br {
+	display: none;
+}
+table#contribute-wpc label span {
+	margin-top: 5px;
+	margin-left: 1px;
+}
+#banned-words {
+	/* margin-bottom: 1em; */
+	display: inline-block;
+}
+#banned-words div {
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 0;
+	margin-right: 2px;
+	background: #fff;
+	margin-bottom: 2px;
+}
+#banned-words span.del:after {
+	content: "\2716";
+	border-radius: 0;
+	border-left: 1px solid #ccc;
+	font-family: cursive;
+	color: #555;
+	cursor: pointer;
+	vertical-align: baseline;
+	padding: 4px 6px;
+	padding-right: 8px;
+}
+#banned-words span.del:hover:after {
+	background-color: #ececec;
+}
+#banned-words span.cont {
+	padding: 3px 5px;
+	line-height: 25px;
+}
+span.add-banned {
+    display: inline-block;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.27em 6px;
+    vertical-align: bottom;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+#trans-object-cont {
+	width: 100%;
+	background-color: #f6f6f6;
+}
+#trans-object-cont td {
+	width: 100%;
+}

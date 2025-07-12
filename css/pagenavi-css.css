@@ -1,0 +1,22 @@
+.wp-pagenavi {
+    clear: both;
+    background: #fff;
+    padding: 10px 5px;
+}
+.wp-pagenavi span {
+    background: #fff;
+    padding: 3px 4px;
+    margin-right: 4px;
+    border: 1px solid #999;
+}
+.wp-pagenavi span.current {
+    background: #e5e5e5 none repeat scroll 0 0;
+    border: 1px solid #999;
+}
+.wp-pagenavi a {
+    background: #fff;
+    padding: 2px 4px;
+    margin-right: 4px;
+    border: 1px solid #999;
+    display: inline-block;
+}
